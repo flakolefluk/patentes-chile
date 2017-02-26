@@ -47,6 +47,8 @@ exports.verify = function (regPlate, cb) {
       }
       var result = {hasFines: hasFines, thisYearFines: thisYearFines, currentFines: currentFines}
       return cb(null, result)
+    } else {
+      return cb('Server error', null)
     }
   })
 }
