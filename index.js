@@ -9,17 +9,16 @@ exports.verify = function (regPlate, cb) {
     return cb('Input contains invalid characters', null)
   }
 
-//normalize motorcycle plates
+// normalize motorcycle plates
   if (regPlate.length === 5) {
     regPlate = regPlate.slice(0, 2) + '0' + regPlate.slice(2, 5)
   }
-
 
   if (regPlate.length !== 6) {
     return cb('Invalid input length', null)
   }
 
-//check correct plate format
+// check correct plate format
   if (!regPlate.match(/^((([a-z]|[A-Z]){2}[0-9]{4})|(([a-z]|[A-Z]){4}[0-9]{2}))$/)) {
     return cb('Input has invalid format. (ABCD12, AB1234 or AB123)', null)
   }
