@@ -1,6 +1,6 @@
 {
   "name": "patentes-chile",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "chilean vehicle registration plates verifier - verificador patentes auto chilenas",
   "main": "index.js",
   "scripts": {
