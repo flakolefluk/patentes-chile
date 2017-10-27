@@ -9,7 +9,7 @@ This module will help you verify if chilean vehicle registration plates have fin
 ## Breaking changes in v2.0.0
 
 * Use promises instead of callbacks
-
+* Show current fines only
 
 ## Code Example
 
