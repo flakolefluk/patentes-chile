@@ -1,10 +1,14 @@
 {
   "name": "patentes-chile",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "chilean vehicle registration plates verifier - verificador patentes auto chilenas",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "test": "mocha --require ts-node/register ./test/*.spec.ts",
+    "cz": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -16,14 +20,29 @@
     "registration",
     "plate"
   ],
-  "author": "Ignacio Falk <flakolefluk@gmail.com> (http://ignaciofalk.herokuapp.com/)",
+  "author": "Ignacio Falk <flakolefluk@gmail.com> (https://flakolefluk.dev)",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cheerio": "^0.22.13",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.6.8",
+    "@types/request": "^2.48.2",
     "chai": "^4.1.2",
-    "mocha": "^6.2.0"
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "mocha": "^6.2.0",
+    "semantic-release": "^15.13.21",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
     "request": "^2.88.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

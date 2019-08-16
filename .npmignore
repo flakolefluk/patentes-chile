@@ -1,5 +1,6 @@
-.gitignore
-.git/
-node_modules/
-test/
-.npmignore
+*
+
+!dist
+!README.md
+!LICENSE.md
+!package.json
