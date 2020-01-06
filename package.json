@@ -23,18 +23,18 @@
   "author": "Ignacio Falk <flakolefluk@gmail.com> (https://flakolefluk.dev)",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/cheerio": "^0.22.13",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^13.1.0",
-    "@types/request": "^2.48.2",
-    "chai": "^4.1.2",
+    "@types/chai": "^4.2.7",
+    "@types/cheerio": "^0.22.15",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.4",
+    "@types/request": "^2.48.4",
+    "chai": "^4.2.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "mocha": "^6.2.0",
-    "semantic-release": "^15.13.21",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "mocha": "^7.0.0",
+    "semantic-release": "^15.14.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
