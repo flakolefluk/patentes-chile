@@ -25,7 +25,7 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/cheerio": "^0.22.13",
-    "@types/mocha": "^5.2.6",
+    "@types/mocha": "^7.0.2",
     "@types/node": "^12.12.3",
     "@types/request": "^2.48.2",
     "chai": "^4.1.2",
