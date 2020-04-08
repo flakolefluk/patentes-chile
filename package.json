@@ -29,7 +29,7 @@
     "@types/node": "^12.12.3",
     "@types/request": "^2.48.2",
     "chai": "^4.1.2",
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.0.4",
     "cz-conventional-changelog": "^3.0.2",
     "mocha": "^6.2.0",
     "semantic-release": "^15.13.21",
