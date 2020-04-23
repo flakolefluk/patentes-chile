@@ -24,7 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.1.7",
-    "@types/cheerio": "^0.22.13",
+    "@types/cheerio": "^0.22.18",
     "@types/mocha": "^5.2.6",
     "@types/node": "^12.12.3",
     "@types/request": "^2.48.2",
