@@ -27,7 +27,7 @@
     "@types/cheerio": "^0.22.13",
     "@types/mocha": "^5.2.6",
     "@types/node": "^12.12.3",
-    "@types/request": "^2.48.2",
+    "@types/request": "^2.48.5",
     "chai": "^4.1.2",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
